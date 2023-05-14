@@ -53,7 +53,7 @@ public class Runner {
                         resultString.append(returnSign(currentDigit) + Math.abs(currentDigit));
 
                     } catch (Exception exception) {
-                        amountOfWrongValues += 1;
+                        amountOfWrongValues ++;
                     }
                 }
             }
